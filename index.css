@@ -114,15 +114,21 @@
             padding-left: 30px;
             border: 1px solid rgb(190, 131, 129);
             border-radius: 29px;
+            outline: 0;
             opacity: 1;
         }
+        #input:focus{
+            outline: 1px solid rgb(253, 148, 148);
+        }
+
+
     
         #btn {
             position: absolute;
-            top: 606px;
-            left: 532px;
-            width: 95px;
-            height: 55px;
+            top: 608px;
+            left: 531px;
+            width: 94px;
+            height: 52px;
             text-align: center;
             background: rgba(231, 160, 158, 1) 0% 0% no-repeat padding-box;
             border: 0;
@@ -131,6 +137,10 @@
             color: white;
             border-radius: 29px;
             opacity: 1;
+        }
+
+        #btn:hover{
+            background: #f7a6a8;
         }
     
         img {
